@@ -86,7 +86,7 @@ function openComponentDialog() {
 
 
 
-    <button @click="openComponentDialog">选择要加载的组件</button>
+    <button @click="openComponentDialog">选择第三方组件</button>
     
     <!-- 动态组件渲染区域 -->
     <div class="component-container">
@@ -100,7 +100,7 @@ function openComponentDialog() {
         <!-- 对话框 -->
         <BaseDialog 
       v-model:show="showDialog" 
-      title="选择组件类型"
+      title="选择第三方组件"
       @confirm="handleConfirm"
     />
   </div>
